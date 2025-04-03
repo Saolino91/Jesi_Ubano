@@ -187,4 +187,5 @@ for sid, info in stop_info.items():
 # Visualizzazione mappa
 # ----------------------------
 st.markdown("### Mappa del servizio")
-st_data = st_folium(m, width=1000, height=700)
+st_data = st_folium(m, use_container_width=True, height=800)
+
